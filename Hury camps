@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+   int main()  {
+   	
+   	
+   	 string user1;
+    cout<<"=============================== "<<endl;
+   	   cout<<"SELAMAT DATANG DI HURY  "<<endl;
+   	   cout<<"versi 1.0 by CaitroniaDev"<<endl;
+    cout<<"=============================== "<<endl;
+    
+      cout<<"masukan sandi akses =  "<<endl;
+      cin>>user1;
+      
+      if (user1 == "NEVADA") {
+      	
+      	int usermasuk;      	 
+	    cout<<" tekan 1 untuk gmail, 2 untuk facebook "<<endl;
+      	  cin>>usermasuk;
+      	  
+      	  switch (usermasuk) {
+      	  	
+      	  	case 1:
+      	  	 cout<<"----------- "<<endl;
+      	  	cout<<"--------- "<<endl;
+      	  	   cout<<"----------------------------"<<endl;
+      	  	    break;
+      	  	    
+      	  	   case 2:
+      	  	   	cout<<"------------ "<<endl;
+      	  	cout<<"------------ "<<endl;
+      	  	cout<<"--------------------------"<<endl;
+      	  
+      	  	    break;
+      	  	    
+      	  	default: 
+      	  	   cout<<"input eror 404"<<endl;
+			}
+			
+		}	else  {
+			
+				cout<<"EROR 505 EROR "<<endl;
+			
+				
+			}
+			
+			cout<<"Thank you for use :)"<<endl;
+				 return 0;
+	
+	}		
+	
+	  
+      
+     
+   
